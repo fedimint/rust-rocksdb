@@ -329,7 +329,7 @@ fn cxx_standard() -> String {
 
 fn update_submodules() {
     let program = "git";
-    let dir = "../";
+    let dir = "./";
     let args = ["submodule", "update", "--init"];
     println!(
         "Running command: \"{} {}\" in dir: {}",
